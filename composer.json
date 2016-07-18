@@ -1,0 +1,38 @@
+{
+    "name": "klxdr/yii2-hc-widget",
+    "description": "HC widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "hc"
+    ],
+    "homepage": "",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alex Kotov",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "",
+        "source": ""
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "klxdr\\hc\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
